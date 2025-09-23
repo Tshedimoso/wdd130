@@ -84,7 +84,7 @@ h2 {
 }
 
 footer {
-  background: linear-gradient(135deg,var(--accent1-color)); 
+  background: var(--accent1-color); 
   color: #fff;
   text-align: center;
 }
