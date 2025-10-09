@@ -23,6 +23,29 @@ header, main, footer {
     margin:0 auto;
 }
 
+header{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    place-items: center;
+    
+}
+
+nav{
+    display: flex;
+    list-style: none;
+}
+
+nav li {
+    flex: 1 1 auto;
+}
+
+nav a {
+    
+    color: navy;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
 h1, h2 {
     font-family: var(--heading-font);
     color:var(--primary-color);
@@ -76,12 +99,25 @@ h2 {
     text-align:center;
     background-color: var(--accent1-color);
     color: #fff; 
+   
 }
 
 .hero article img {
     float: right;
     width: 125px;   
 }
+
+.grid{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+}
+
+.grid h2{
+    grid-column: 1/4;
+}
+
+
 
 footer {
   background: var(--accent1-color); 
