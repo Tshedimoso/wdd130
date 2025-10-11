@@ -135,19 +135,15 @@ h2 {
   
 }
 
-
-
-
 footer {
   background: var(--accent1-color); 
   color: #fff;
   text-align: center;
-}
-
-footer {
   display: flex;
   justify-content: space-between;  
   align-items: center;
+  padding: 4px 12px;                
+  height: 40px;    
   
 }
 
