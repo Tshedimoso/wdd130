@@ -117,6 +117,24 @@ h2 {
     grid-column: 1/4;
 }
 
+.grid2 {
+    display:grid;
+    grid-template-columns: repeat(5,1fr);
+    place-items: center;
+}
+
+.grid2 h2{
+    grid-column: 1/6;
+    align-items:center;
+}
+
+.grid2 img {
+  height: 100px; 
+  object-fit: cover; 
+  padding:10px;
+  
+}
+
 
 
 
@@ -125,4 +143,29 @@ footer {
   color: #fff;
   text-align: center;
 }
+
+footer {
+  display: flex;
+  justify-content: space-between;  
+  align-items: center;
+  
+}
+
+.socialmedia {
+  display: flex;
+  gap: 10px;                      
+}
+
+.socialmedia img {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.socialmedia img:hover {
+  transform: scale(1.1);           
+}
+
 
