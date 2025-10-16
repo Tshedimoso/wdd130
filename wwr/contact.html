@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>White Water Rafting</title>
+    <meta name="description"
+        content="Contact White Water Rafting — address, phone, email, staff, map, and contact form." />
+    <meta name="author" content="Tshedimoso Segona">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/logo.png" alt="company logo" width="100">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Company information -->
+        <h2 id="company-info">White Water Rafting</h2>
+        <address>
+            1533 Ikhala street<br />
+            Johannesburg, ST 45622<br />
+            Phone: <a href="tel:+15551234567">+27 70 336 8977</a><br />
+            Email: <a href="mailto:info@wwrafting.example.com">info@wwrafting.company.com</a>
+        </address>
+
+        <!-- Embedded Google Map (no inline style attribute) -->
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3578.8013453122353!2d27.8014113!3d-26.235643599999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e95a3917850bfa9%3A0xbae91fcedb7c481e!2s1533%20Ikhala%20St%2C%20Zuurbult%20240-Iq%2C%20Soweto!5e0!3m2!1sen!2sza!4v1760642573077!5m2!1sen!2sza"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+        <!-- Employee profiles -->
+
+        <h2 id="staff">Our Team</h2>
+        <div class="employee-grid">
+            <figure>
+                <img src="images/employee-1.jpg" alt="Image of Jordan Smith, Operations Manager" />
+                <figcaption>Jordan Smith — Operations Manager</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee-2.jpg" alt="Image of Alex Rivera, Lead Guide" />
+                <figcaption>Alex Rivera — Lead Guide</figcaption>
+            </figure>
+            <figure>
+                <img src="images/employee-3.jpg" alt="Image of Casey Lee, Reservations Coordinator" />
+                <figcaption>Casey Lee — Reservations Coordinator</figcaption>
+            </figure>
+        </div>
+
+
+        <!-- Contact form -->
+
+        <h2 id="contact-form">Send Us a Message</h2>
+
+        <form action="#" method="post" class="contact-form" novalidate>
+            <div class="form-row">
+                <label for="name">Name</label>
+                <input id="name" name="name" type="text" required />
+            </div>
+
+            <div class="form-row">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="email" required />
+            </div>
+
+            <fieldset class="form-row">
+                <legend>Purpose of message</legend>
+
+                <div class="radio-row">
+                    <input id="purpose-general" name="purpose" type="radio" value="general" checked />
+                    <label for="purpose-general">General Inquiry</label>
+                </div>
+
+                <div class="radio-row">
+                    <input id="purpose-reservation" name="purpose" type="radio" value="reservation" />
+                    <label for="purpose-reservation">Reservation Question</label>
+                </div>
+
+                <div class="radio-row">
+                    <input id="purpose-suggestion" name="purpose" type="radio" value="suggestion" />
+                    <label for="purpose-suggestion">Website Suggestion</label>
+                </div>
+            </fieldset>
+
+            <div class="form-row">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+            </div>
+
+            <div class="form-row checkbox-row">
+                <input id="subscribe" name="subscribe" type="checkbox" />
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+            </div>
+
+            <div class="form-row">
+                <button type="submit" class="btn-submit">Submit Message</button>
+            </div>
+        </form>
+
+    </main>
+
+    <footer>
+        <p>©2025 *WhiteWaterRafting* Tshedimoso Segona</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="facebook icon" width="50">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="linkedin icon" width="50">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram.svg" alt="instagram icon" width="50">
+            </a>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
